@@ -4,15 +4,15 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-import model.Menu;
-import services.FilmeService;
-import services.LimpaTela;
-import services.MenuService;
+import Forca.model.Menu;
+import Forca.services.FilmeService;
+import Forca.services.LimpaTela;
+import Forca.services.MenuService;
 
 public class Forca {
 	public static Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) throws IOException, InterruptedException {
+	public static void forca() throws IOException, InterruptedException {
 		Boneco boneco = new Boneco();
 		FilmeService filme = new FilmeService();
 

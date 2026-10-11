@@ -1,4 +1,4 @@
-package services;
+package Forca.services;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.util.Random;
 public class FilmeService {
 	public  String roletarFilme() {
 		String filme = "";
-		InputStream stream = getClass().getResourceAsStream("/resources/filmes.csv");
+		InputStream stream = getClass().getResourceAsStream("/Forca/resources/filmes.csv");
 
 		Random random = new Random();
 		Integer id =  random.nextInt(1,2774);

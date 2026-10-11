@@ -1,4 +1,4 @@
-package model;
+package Forca.model;
 
 import Forca.Boneco;
 

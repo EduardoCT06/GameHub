@@ -1,9 +1,9 @@
-package services;
+package Forca.services;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import model.Menu;
+import Forca.model.Menu;
 
 public class MenuService {
 		public static void MenuPrincipal(Menu menu) throws InterruptedException, IOException {
