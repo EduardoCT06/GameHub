@@ -13,7 +13,6 @@ public class Forca {
 	public static Scanner sc = new Scanner(System.in);
 
 	public static void forca() throws IOException, InterruptedException {
-		Boneco boneco = new Boneco();
 		FilmeService filme = new FilmeService();
 
 		// DESENHANDO
@@ -24,7 +23,7 @@ public class Forca {
 			e.printStackTrace();
 		}
 		// ========================
-		Menu menu = new Menu(boneco, filme.roletarFilme());
+		Menu menu = new Menu(new Boneco(), filme.roletarFilme());
 		String secreta = MenuService.gerarPalavraSecreta(menu);
 		menu.setSecreta(secreta);
 
@@ -85,7 +84,7 @@ public class Forca {
 				if (MenuService.verificarFilme(menu, palavra)) {
 					System.out.println("");
 				} else {
-					boneco.DiminuirBoneco();
+					menu.getBoneco().DiminuirBoneco();
 				}
 			}else {
 				menu.AdicionarLetra(Character.toUpperCase(letra));
@@ -102,7 +101,7 @@ public class Forca {
 				}
 
 			 else if(letra != '#') {
-				boneco.DiminuirBoneco();
+					menu.getBoneco().DiminuirBoneco();
 			}
 		}
 	}

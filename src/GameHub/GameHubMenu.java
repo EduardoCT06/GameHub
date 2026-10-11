@@ -20,6 +20,8 @@ public class GameHubMenu {
 				Forca.forca();
 				break;
 			}
+			TimeUnit.SECONDS.sleep(2);
+			LimpaTela.limparConsole();
 			fimDeJogo();
 			char decisao = sc.next().charAt(0);
 			if (decisao == 'n') {
