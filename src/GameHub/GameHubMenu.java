@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import Forca.Forca;
 import Forca.services.LimpaTela;
+import JogoDaVelha.JogoDaVelha;
 
 public class GameHubMenu {
 	public static Scanner sc = new Scanner(System.in);
@@ -18,6 +19,9 @@ public class GameHubMenu {
 			switch (opcao) {
 			case 1:
 				Forca.forca();
+				break;
+			case 2:
+				JogoDaVelha.jogar();
 				break;
 			}
 			TimeUnit.SECONDS.sleep(2);
