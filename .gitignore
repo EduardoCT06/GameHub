@@ -1,57 +1,36 @@
-# ==============================
-# Java - arquivos compilados
-# ==============================
+# Java
 *.class
-*.jar
-*.war
-*.ear
 
-# ==============================
-# Eclipse IDE
-# ==============================
+# Eclipse
 .metadata/
 .settings/
-.project
-.classpath
 bin/
 
-# ==============================
-# IntelliJ IDEA
-# ==============================
+# IntelliJ
 .idea/
 *.iml
 out/
 
-# ==============================
-# Visual Studio Code
-# ==============================
+# VS Code
 .vscode/
 
-# ==============================
-# Sistema operacional
-# ==============================
-.DS_Store
-Thumbs.db
-Desktop.ini
+# Build
+target/
+build/
 
-# ==============================
-# Logs e arquivos temporários
-# ==============================
+# Logs e temporários
 *.log
 *.tmp
 *.temp
 *.swp
 *.bak
 
-# ==============================
-# Build tools
-# ==============================
-target/
-build/
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# ==============================
-# Configurações locais
-# ==============================
+# Variáveis de ambiente
 .env
 .env.*
 !.env.example
