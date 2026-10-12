@@ -1,3 +1,5 @@
+package JogoDaVelha;
+
 public class Tabuleiro {
     private char[][] grid;
 
