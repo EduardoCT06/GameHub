@@ -76,6 +76,7 @@ public class GameHubMenu {
 				░█   ░█ ░█    ░█   ░█     ░█   ░█     ░█   ░█   ░█    ░█   ░█   ░█
 				▀█▄▄░▒  ▀█▄▄▄░█▄ ▄██▄   ▄██▄ ▄░█▄▄░ ▄██▄ ▄██▄   ▀█▄▄░▀   ▄░█▄▄█▀
 								        """);
+				TimeUnit.SECONDS.sleep(2);
 	}
 
 	public static void fimDeJogo() throws InterruptedException {
