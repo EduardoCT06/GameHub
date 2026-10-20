@@ -16,6 +16,7 @@ public class GameHubMenu {
 		while (true) {
 			menuPrincipal();
 			int opcao = sc.nextInt();
+			sc.nextLine();
 			switch (opcao) {
 			case 1:
 				Forca.forca();
