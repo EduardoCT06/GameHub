@@ -106,8 +106,10 @@ public class MenuService {
 		
 		public static boolean verificarFilme(Menu menu, String filme) {
 			boolean a = false;
-			String filme_upper = filme.toUpperCase();
-		    if (filme_upper.equals(menu.getFilme())) {
+			System.out.println(filme);
+			String filme_upper = filme.toUpperCase().replaceAll("\\s", "");
+			String filme_verificar = menu.getFilme().toUpperCase().replaceAll("\\s", "");
+		    if (filme_upper.equals(filme_verificar)) {
 		    	a = true;
 			    menu.setSecreta(menu.getFilme());
 
