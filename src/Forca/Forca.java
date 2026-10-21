@@ -66,6 +66,7 @@ public class Forca {
 			}
 			MenuService.MenuPrincipal(menu);
 			char letra = sc.next().charAt(0);
+			sc.nextLine();
 			while (true) {
 				if (menu.GetLetras().indexOf(Character.toUpperCase(letra)) != -1) {
 					System.out.println("Caractere ja utilizado, tente novamente");
@@ -78,8 +79,7 @@ public class Forca {
 			
 
 			if (letra == '#') {
-				System.out.println("Insira nome do filme inteiro se for capaz: ");
-				sc.next();
+				System.out.println("Insira nome do filme inteiro: ");
 				String palavra = sc.nextLine();
 				if (MenuService.verificarFilme(menu, palavra)) {
 					System.out.println("");
