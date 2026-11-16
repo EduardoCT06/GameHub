@@ -1,4 +1,4 @@
-package main;
+package BatalhaNaval;
 
 import control.*;
 import model.*;
@@ -6,7 +6,7 @@ import visualization.Tela;
 
 public class BatalhaNaval {
 
-    public static void main(String[] args) {
+    public static void jogar(String[] args) {
 
 
         Tela tela = new Tela();
