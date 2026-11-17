@@ -1,5 +1,4 @@
-
-package sudoku1;
+package Sudoku;
 
 public class Tabuleiro {
 	
