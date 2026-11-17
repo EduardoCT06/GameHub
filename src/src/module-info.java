@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Fatec
+ *
+ */
+module Sudoku {
+}
