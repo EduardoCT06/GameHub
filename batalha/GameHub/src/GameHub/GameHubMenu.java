@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import Forca.Forca;
 import Forca.services.LimpaTela;
 import JogoDaVelha.JogoDaVelha;
-import BatalhaNaval*;
+import BatalhaNaval.*;
 
 public class GameHubMenu {
 	public static Scanner sc = new Scanner(System.in);
