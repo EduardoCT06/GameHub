@@ -26,8 +26,9 @@ public class GameHubMenu {
 			case 2:
 				JogoDaVelha.jogar();
 				break;
-				case 3:
-					Sudoku.jogar();
+			case 3:
+				Sudoku.jogar();
+				break;
 			case 4:
 				BatalhaNaval.jogar();
 				break;
