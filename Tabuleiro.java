@@ -5,27 +5,27 @@ public class Tabuleiro {
 	
 	public boolean inserirNumero(int linha, int coluna, int numero) {
 
-	    // 1. Verifica se as coordenadas estão dentro do tabuleiro
+	    
 	    if (linha < 0 || linha > 8 || coluna < 0 || coluna > 8) {
 	        return false;
 	    }
 
-	    // 2. Verifica se a posição é fixa
+	    
 	    if (posicaoFixa(linha, coluna)) {
 	        return false;
 	    }
 
-	    // 3. Verifica se a célula está vazia
+	    
 	    if (grade[linha][coluna] != 0) {
 	        return false;
 	    }
 
-	    // 4. Verifica se a jogada respeita as regras do Sudoku
+	    
 	    if (!jogadaValida(linha, coluna, numero)) {
 	        return false;
 	    }
 
-	    // 5. Se passou por todas as verificações, insere o número
+	    
 	    grade[linha][coluna] = numero;
 
 	    return true;
@@ -33,22 +33,22 @@ public class Tabuleiro {
 	
 	public boolean removerNumero(int linha, int coluna) {
 
-	    // 1. Verifica se as coordenadas são válidas
+	    
 	    if (linha < 0 || linha > 8 || coluna < 0 || coluna > 8) {
 	        return false;
 	    }
 
-	    // 2. Verifica se a posição é fixa
+	    
 	    if (posicaoFixa(linha, coluna)) {
 	        return false;
 	    }
 
-	    // 3. Verifica se existe algum número na posição
+	    
 	    if (grade[linha][coluna] == 0) {
 	        return false;
 	    }
 
-	    // 4. Remove o número
+	    
 	    grade[linha][coluna] = 0;
 
 	    return true;
