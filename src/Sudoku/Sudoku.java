@@ -18,7 +18,7 @@ public class Sudoku {
 	}
 	
 	
-	public static void main(String[] args) {
+	public static void jogar() {
 
         Scanner entrada = new Scanner(System.in);
         Tabuleiro tabuleiro = new Tabuleiro();
