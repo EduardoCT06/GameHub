@@ -1,4 +1,4 @@
-package sudoku1;
+package Sudoku;
 import java.util.Scanner;
 
 public class Main {
