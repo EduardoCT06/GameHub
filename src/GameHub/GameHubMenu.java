@@ -8,6 +8,7 @@ import Forca.Forca;
 import Forca.services.LimpaTela;
 import JogoDaVelha.JogoDaVelha;
 import BatalhaNaval.BatalhaNaval;
+import Sudoku.Sudoku;
 
 public class GameHubMenu {
 	public static Scanner sc = new Scanner(System.in);
@@ -25,6 +26,8 @@ public class GameHubMenu {
 			case 2:
 				JogoDaVelha.jogar();
 				break;
+				case 3:
+					Sudoku.jogar();
 			case 4:
 				BatalhaNaval.jogar();
 				break;
