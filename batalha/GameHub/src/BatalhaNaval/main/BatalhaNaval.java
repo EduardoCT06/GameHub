@@ -6,7 +6,7 @@ import visualization.Tela;
 
 public class BatalhaNaval {
 
-    public static void jogar(String[] args) {
+    public static void jogar() {
 
 
         Tela tela = new Tela();
