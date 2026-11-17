@@ -1,13 +1,16 @@
-package main;
+package BatalhaNaval;
 
-import control.*;
-import model.*;
-import visualization.Tela;
+import BatalhaNaval.control.*;
+import BatalhaNaval.model.*;
+import BatalhaNaval.visualization.Tela;
 
 public class BatalhaNaval {
 
     public static void main(String[] args) {
+        jogar();
+    }
 
+    public static void jogar() {
 
         Tela tela = new Tela();
 
@@ -28,7 +31,5 @@ public class BatalhaNaval {
         );
 
         jogo.iniciar();
-
-        tela.encerrar();
     }
 }

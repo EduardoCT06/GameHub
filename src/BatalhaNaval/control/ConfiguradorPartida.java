@@ -1,7 +1,7 @@
-package control;
+package BatalhaNaval.control;
 
-import model.*;
-import visualization.Tela;
+import BatalhaNaval.model.*;
+import BatalhaNaval.visualization.Tela;
 
 public class ConfiguradorPartida {
 

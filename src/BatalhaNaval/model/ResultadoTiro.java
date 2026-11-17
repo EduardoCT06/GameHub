@@ -1,4 +1,4 @@
-package model;
+package BatalhaNaval.model;
 
 public enum ResultadoTiro {
 

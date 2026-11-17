@@ -1,7 +1,7 @@
-package model;
+package BatalhaNaval.model;
 
 import java.util.Random;
-import visualization.Tela;
+import BatalhaNaval.visualization.Tela;
 
 public class JogadorBot extends Jogador {
 

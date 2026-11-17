@@ -1,8 +1,8 @@
-package visualization;
+package BatalhaNaval.visualization;
 
 import java.util.Scanner;
-import model.Coordenada;
-import model.Tabuleiro;
+import BatalhaNaval.model.Coordenada;
+import BatalhaNaval.model.Tabuleiro;
 
 public class Tela {
 

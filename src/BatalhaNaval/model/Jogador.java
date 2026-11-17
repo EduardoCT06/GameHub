@@ -1,6 +1,6 @@
-package model;
+package BatalhaNaval.model;
 
-import visualization.Tela;
+import BatalhaNaval.visualization.Tela;
 
 public abstract class Jogador {
 
