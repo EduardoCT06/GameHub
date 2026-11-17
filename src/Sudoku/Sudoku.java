@@ -1,7 +1,7 @@
 package Sudoku;
 import java.util.Scanner;
 
-import wsdwq.Sudoku.tabuleiro.Tabuleiro;
+import Sudoku.Tabuleiro;
 
 public class Sudoku {
 	public static int lerNumero(Scanner entrada) {
